@@ -39,22 +39,4 @@ export default {
 }
 </script>
 
-<style>
-.section-enter-active,
-.section-leave-active,
-.quiz-enter-active,
-.quiz-leave-active {
-  transform: translateY(0);
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-
-
-.section-enter-from,
-.section-leave-to,
-.quiz-enter-from,
-.quiz-leave-to {
-  opacity: 0;
-  transform: translateY(5px);
-}
-</style>
+<style></style>
